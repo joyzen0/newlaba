@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>#{title}</title>
+  <meta charset="utf-8" />
+</head>
+<body>
+
+  <h1>#{title}</h1>
+
+  if emailsVisible
+    <h3>Электронные адреса</h3>
+    <ul>
+      each email in emails
+        <li>#{email}</li>
+    </ul>
+  else
+    <h3>Электроннный адрес отсутствует</h3>
+  <p>Телефон: #{phone}</p>
+    <p>Род занятий: #{zanyatie}</p>
+    <p>Хобби: #{hobby}</p>
+  <h3>Интересы</h3>
+    <ul>
+      each interesi in interesiOGO
+        <li>#{interesi}</li>
+    </ul>
+<a class="button" href="hi">Социальные сети</a>
+</body>
+<html>
