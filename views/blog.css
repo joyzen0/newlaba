@@ -1,0 +1,20 @@
+header {
+    font-size: 40px;
+    height: 250px;
+    width: 100px;
+}
+footer {
+    font-size: small;
+    margin: 50px;
+}
+aside {
+    
+    margin: 20px;
+}
+.soderj h2 {
+   text-align: center;
+}
+
+.soderj h3{
+    text-align: left;
+}

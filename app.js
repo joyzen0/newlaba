@@ -63,4 +63,12 @@ app.use("/faq", function (request, response) {
  });
     });
         
+    
+app.get("/blog", (req, res) => {
+     res.render("blog", {})
+ })
+
+ app.get("/dinam", (req, res) => {
+     res.render("dinam", {})
+ })
         
